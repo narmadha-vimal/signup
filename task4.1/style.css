@@ -1,0 +1,64 @@
+.container{
+    display:flex;
+    align-content: center;
+}
+fieldset{
+    width: 400px;
+    height:400px;
+    margin:auto;
+    display:inline block;
+    background-color:background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+    }
+body{
+    background-image: url(./images/pic4.jpg);
+    background-size: cover;
+}
+
+.Login{
+    display: flex;
+}
+h4{
+    text-decoration-line: underline;
+}
+.signup{
+
+    height:15px;
+    width: 180px;
+    background-color:rgb(54, 207, 231); 
+    margin-left: 30px;
+    text-decoration:none;
+    padding: 10px 30px; 
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+}
+.signupimg{
+    margin-left: 50px;
+}
+input{ 
+    background-color:whitesmoke; 
+    margin-left: 25px;
+    text-decoration-color:black;
+    padding: 40px;
+    border-radius: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+inputlabel::focus{
+    outline:none;
+    border:1px chocolate;
+}
+
+h4:hover{
+    background-color: chocolate;
+}
